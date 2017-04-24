@@ -1,0 +1,28 @@
+.img-responsive{
+display: block;
+margin: 0 auto;
+}
+
+.image_col{
+padding: 10px;
+}
+
+
+#footer_image{
+  margin-bottom: 30px;
+}
+
+h1{
+  color: #3CCACC;
+}
+
+h3{
+  color: #5EC664;
+}
+
+p{
+  color: #B9CF8F;
+}
+
+body{
+  background: #D6F89A;

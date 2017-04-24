@@ -1,0 +1,62 @@
+/*background color of complete nav bar and lower border color*/
+.navbar{
+  background: #f0efa8;
+  border-bottom: 2px solid purple;
+}
+
+/*sizing and coloring of link text*/
+#navbar a{
+  color: #8B00FE;
+  font-size: 1.3em;
+}
+.navbar .navbar-brand {
+
+  font-family: Catamaran, Helvetica, Arial, sans-serif;
+  
+}
+
+/*coloring of the link hover state*/
+#navbar a:hover{
+color:#f176ad;
+background: #f0ee77;
+}
+
+/* color of the three horinontal lines in the icon when hovered over*/
+.navbar-inverse .navbar-toggle:hover .icon-bar, .navbar-inverse .navbar-toggle:focus .icon-bar{
+  background-color: #f0efa8;
+}
+/* color of the background of the icon when hovered over*/
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
+  background-color: #a94ff4;
+}
+/*color of the three horizontal lines (icons) normal*/
+.navbar-inverse .navbar-toggle .icon-bar{
+  background-color: #fff;
+}
+
+/* color of the whole icon when normal */
+.navbar-inverse .navbar-toggle{
+  background-color: #8B00FE;
+  border-color: #333;
+}
+
+/* color the text (westview high school) when normal */
+.navbar-header .navbar-brand{
+  color: #8B00FE;
+  font-size: 1.6em;
+}
+/* color the text (westview high school) when hovered over */
+.navbar-header .navbar-brand:hover {
+  color: pink;
+}
+
+
+
+.carousel{
+  height: 50vh;
+}
+
+.carousel-control.right, .carousel-control.left {
+  background-image: none;
+  color: #fff;
+}
